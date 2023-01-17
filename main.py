@@ -1,15 +1,15 @@
 import random
 
 chiffre = random.randint(1,100)
-question = int()
 question = input("devinez le nombre que j'ai choisi")
-question = int(question)
 print (question)
 
-
+for
 if int(question) > chiffre:
     print("plus petit")
+    input("asseyez de nouveau")
 
 
 elif int(question) < chiffre:
     print("plus grand")
+    input("asseyez de nouveau")
